@@ -1,0 +1,52 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+body {
+    font-family: Verdana, Arial, Tahoma, Serif;
+    color: rgb(5, 8, 6);
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/05/22/49/raccoon-1885137_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 5% 15%;
+    
+  }
+
+header,footer {
+    text-align:center;
+    font-family:"comic neue",cursive;
+    color: rgb(250, 201, 201);
+    background-color:rgba(0, 0, 0, 0.534);
+  }
+   
+  #main {
+    padding-top:40px;
+    text-align:left;
+    width: 300px;
+    margin:0 auto;
+    }
+
+ /* a:link {
+  color:yellow;
+}
+a:hover {
+  color: green;
+}
+a:visited {
+  color: magenta;
+}
+.nav {
+  text-align: left;
+} 
+*/
+.container{
+  background-color: rgba(18, 208, 233, 0.548);
+  padding: 3%;
+}
+.nav-link{
+  color: rgb(199, 245, 71);
+}
+.btn{
+  background-color: rgb(130, 55, 192);
+  margin: 5px;
+}

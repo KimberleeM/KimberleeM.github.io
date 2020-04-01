@@ -2,94 +2,118 @@
    <html>
      <head>
     <title>Jack Rabbit Slims</title>
+<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
     <style>
       .untitled {
         border-radius: 100%;
+        max-width: 100%;
+        height:auto;
       }
-      table {
-          border:1px solid red;
-          border-collapse: collapse;
-          }
-  
-      td {
-          border:1px solid black;
-          padding:8px;
-          text-align:center;
-        }
-  
-      body {
-          background-image: url("https://cdn.pixabay.com/photo/2016/12/05/22/49/raccoon-1885137_960_720.jpg");
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-          font-family:italic;
-          color: rgb(92, 219, 155);
-          text-align: center;
-        }
-  
-      #main {
-          padding-top:40px;
-          text-align:left;
-          width: 300px;
-          margin:0 auto;
-          }
-  
-      h1 {
-          text-align:center;
-          font-family:cursive;
-          font-size: 60px;
-          color: rgb(240, 74, 74);
-        }
-        a:link {
-        color:yellow;
+      .table-striped{
+        background-color: rgb(224, 224, 72);
       }
-      a:hover {
-        color: green;
-      }
-      a:visited {
-        color: magenta;
-      }
-      .nav {
-        text-align: left;
-      }  
     </style>
-  <hr />
+  <hr /> 
+  </head>
     <body>
         <header>
         <h1>Jack Rabbit Slims</h1>
          
         </header>
   <hr /> 
-    </head>
-    <a href="https://kimberleem.github.io/" target="_self">Home</a>
-    <a href="restauranthtml/restaurantsite.html" target="_self"></a>
-    <a href="menu.html" target="_self">menu</a> 
-    <a href="contactus.html" target="_self">Contacts</a>
-  <hr />
-      <h2>MENU ITEMS FROM SLIMS</h2>
-        </header>
-     <h3>Milkshakes $3.15</h3>  
-    <img class="untitled" src="https://cdn.pixabay.com/photo/2018/10/12/18/13/milk-3742675_960_720.jpg" alt="Picture of milkshake" width="300" />
-      <p>Without a doubt you'll love it! super tasty!take it away lorem ipsum Integer sit amet nulla sit amet ante dapibus dignissim eget at enim. Vivamus scelerisque pharetra orci, eu ullamcorper mauris. Vestibulum pulvinar consequat enim quis tristique. Ut a lacus massa. Nam convallis cursus nunc nec efficitur. Suspendisse lacus enim, gravida a massa ac, tincidunt lacinia sem. Ut vitae sem at eros scelerisque efficitur. Pellentesque et dolor sit amet dui facilisis auctor sed in neque. Integer vulputate ultrices dolor, id egestas purus volutpat non. </p>
-
-    <h3>Burgers $5.98</h3>
-    <img class="untitled"src="https://cdn.pixabay.com/photo/2016/03/05/22/09/beef-1239198_960_720.jpg" alt="Picture of burger" width="300" />
-        <p>Comes with fries or other sides tell us our options lorem ipsumMauris condimentum urna non neque iaculis volutpat. Mauris at dapibus est, sit amet cursus neque. Morbi finibus finibus orci quis rhoncus. Nunc pharetra nulla in congue vestibulum. Integer tempus blandit vestibulum. Integer auctor tellus quis leo faucibus, ut mollis felis molestie. Morbi id risus mi. In non lorem at erat dignissim imperdiet molestie ac mauris. </p>
-
-    <h3>Hotdogs $2.19</h2>
-    <img class="untitled" src="https://cdn.pixabay.com/photo/2019/10/30/14/20/hotdog-4589626_960_720.jpg" alt="Picture of hotdog" width="300" />
-     <p>Super hot hot dogs for a low price! right lorem ipsum?Vestibulum pulvinar consequat enim quis tristique. Ut a lacus massa. Nam convallis cursus nunc nec efficitur. Suspendisse lacus enim, gravida a massa ac, tincidunt lacinia sem. Ut vitae sem at eros scelerisque efficitur. Pellentesque et dolor sit amet dui facilisis auctor sed in neque. Integer vulputate ultrices dolor, id egestas purus volutpat non.?</p>
+        <div class="container">
+          <ul class="nav justify-content-center">
+            <li class="btn nav-item">
+              <a class="nav-link" href="https://kimberleem.github.io/" target="_self">landing page</a>
+            </li>
+            <li class="btn nav-item">
+              <a class="nav-link" href="index.html">home</a>
+            </li>
+            <li class="btn nav-item">
+              <a class="nav-link" href="menu.html">menu</a>
+            </li>
+            <li class="btn nav-item">
+              <a class="nav-link" href="contactus.html">contactus</a>
+            </li>
+          </ul>
     <hr />
-    </article>
- </section>
-  </body>
-    </html>
+        <h2>MENU ITEMS FROM SLIMS</h2>
+        </header>
+   
+      <div class="row">
+        <div class="col-4"> 
+        <h3>Fries $3.15</h3> 
+      <img class="untitled" src="https://cdn.pixabay.com/photo/2015/09/05/01/05/french-fries-923687_960_720.jpg" alt="Picture of fries" />
+        <p>Delicious without a doubt! Wouldn't you say,lorem ipsum?Integer sit amet nulla sit amet ante dapibus dignissim eget at enim. Vivamus scelerisque pharetra orci, eu ullamcorper mauris. Vestibulum pulvinar consequat enim quis tristique.  </p>
+        </div>
+
+      <div class="col-4">
+      <h3>Burgers $5.98</h3>
+      <img class="untitled"src="https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_960_720.jpg" alt="Picture of burger" />
+          <p>Comes with various sides tell us our options lorem ipsum.Mauris condimentum urna non neque iaculis volutpat. Mauris at dapibus est, sit amet cursus neque. Morbi finibus finibus orci quis rhoncus. Nunc pharetra nulla in congue vestibulum. Integer tempus blandit vestibulum. Integer auctor tellus quis leo faucibus, ut mollis felis molestie. Morbi id risus mi. In non lorem at erat dignissim imperdiet molestie ac mauris. </p>
+      </div>
+      <div class="col-4">
+      <h3>Hotdogs $2.19</h2>
+      <img class="untitled" src="https://cdn.pixabay.com/photo/2019/10/30/14/20/hotdog-4589626_960_720.jpg" alt="Picture of hotdog" />
+      <p>Super hot hot dogs for a low price! right lorem ipsum?Vestibulum pulvinar consequat enim quis tristique. Ut a lacus massa. Nam convallis cursus nunc nec efficitur. Suspendisse lacus enim, gravida a massa ac, tincidunt lacinia sem. Ut vitae sem at eros scelerisque efficitur. Pellentesque et dolor sit amet dui facilisis auctor sed in neque. Integer vulputate ultrices dolor, id egestas purus volutpat non.?</p>
+      </div>
+      <hr />
+      </div> <!--Closing row 1-->
+
+      
+      <div class="row">
+        <div class="col-4"> 
+        <h3> Chicken Wings $4.15</h3> 
+      <img class="untitled" src="https://cdn.pixabay.com/photo/2015/03/26/09/39/fried-chicken-690039_960_720.jpg" alt="Picture of chicken wings" />
+        <p>Without a doubt you'll love it! super tasty!take it away lorem ipsum. Integer sit amet nulla sit amet ante dapibus dignissim eget at enim. Vivamus scelerisque pharetra orci, eu ullamcorper mauris. Vestibulum pulvinar consequat enim quis tristique. </p>
+
+        </div>
+
+      <div class="col-4">
+      <h3>Salad $3.98</h3>
+      <img class="untitled"src="https://cdn.pixabay.com/photo/2017/10/09/19/29/eat-2834549_960_720.jpg" alt="Picture of salad" />
+          <p>Comes with multiple dressing options. Tell us our options lorem ipsum. Mauris condimentum urna non neque iaculis volutpat. Mauris at dapibus est, sit amet cursus neque. Morbi finibus finibus orci quis rhoncus. Nunc pharetra nulla in congue vestibulum. Integer tempus blandit vestibulum. Integer auctor tellus quis leo faucibus, ut mollis felis molestie. Morbi id risus mi. In non lorem at erat dignissim imperdiet molestie ac mauris. </p>
+      </div>
+        
+      <div class="col-4">
+      <h3>Shrimp Pasta $6.19</h2>
+      <img class="untitled" src="https://cdn.pixabay.com/photo/2015/03/05/18/30/spaghetti-660748_960_720.jpg" alt="Picture of pasta" />
+      <p>Shrimp pastaaaaa! Amiright?! lorem ipsum?Vestibulum pulvinar consequat enim quis tristique. Ut a lacus massa. Nam convallis cursus nunc nec efficitur. Suspendisse lacus enim, gravida a massa ac, tincidunt lacinia sem. Ut vitae sem at eros scelerisque efficitur. Pellentesque et dolor sit amet dui facilisis auctor sed in neque. Integer vulputate ultrices dolor, id egestas purus volutpat non.?</p>
+      <hr />
+      </div>
+      </div> <!--Closing row 2-->
+      </article>
+  </section>
+  <h2>Drinks Menu</h2>
+    <table class="justify-content-around table table-striped">
+      <tr>
+        <td>LEMONADE</td>
+        <td>$2.00</td>
+      </tr>
+      <tr>
+        <td>ROOT BEER</td>
+        <td>$2.50</td>
+      </tr>
+      <tr>
+        <td>COLA</td>
+        <td>$2.00</td>
+      </tr>
+      <tr>
+        <td>VIRGIN DAIQUIRI</td>
+        <td>$5.00</td>
+      </tr>
+    </table>
+
+      </div>
       <footer>
     <hr />
           <p><b>1492 Pulp Fiction Ave, Compton,CA,90000
           (888) 888-8888</b> </p>
-      </footer>
-     
+      </footer> 
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     </body>
+       </html>
     
       
       
