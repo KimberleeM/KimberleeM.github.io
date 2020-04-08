@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gotu&family=Yanone+Kaffeesatz&display=swap");
+
+
+
+body {
+  
+
+}
+
+header{
+    text-align:center;
+    font-family:"font-family: 'Gotu', sans-serif";
+    color: rgb(167, 112, 112);
+  }
+
+  .container{
+    background-color: rgba(155, 250, 237, 0.87);
+    padding: 3%;
+  }
+  .nav-link{
+    color: rgb(199, 245, 71);
+  }
+  .btn{
+    background-color: rgba(241, 152, 188, 0.76);
+    margin: 5px;
+  }
+
+   
