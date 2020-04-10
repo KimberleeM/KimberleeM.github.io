@@ -1,0 +1,45 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+body {
+    font-family: Verdana, Arial, Tahoma, Serif;
+    color: rgb(23, 49, 6);
+    font-size: 1.3em;
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2019/03/03/20/23/flowers-4032775_960_720.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 5% 15%;
+    
+  }
+
+header,footer {
+    text-align:center;
+    font-family:'Satisfy', cursive;
+    color: rgb(240, 221, 48);
+    background-color:rgba(35, 131, 138, 0.794);
+
+  }
+   
+  #main {
+    padding-top:40px;
+    text-align:left;
+    width: 300px;
+    margin:0 auto;
+    }
+
+.container{
+  background-color: rgba(94, 224, 241, 0.794);
+  padding: 3%;
+}
+.nav-link{
+  color: rgb(240, 221, 48);
+}
+.btn{
+  background-color: rgba(12, 147, 160, 0.986);
+  margin: 5px;
+}
+.jumbotron{
+  color: rgb(10, 50, 87);
+  background-color: rgba(245, 172, 89, 0.863);
+}

@@ -15,7 +15,9 @@
     </head>
     <body>
         <header>
-            <h1>Jack Rabbit Slims</h1>
+            <div class="jumbotron">
+                <center><h1>Jack Rabbit Slims</h1></center> 
+                </div>
         </header>
         <hr /> 
 ​
@@ -26,9 +28,8 @@
                 </li>
 ​
                 <li class="btn nav-item">
-                    
-                    <a class="nav-link" href="index.html"><span class="glyphicon glyphicon-home"></span> 
-                        home</a>
+                    <a class="nav-link" href="index.html"><img src="images/house.svg" alt="home" width="30px">
+                    </a>
                 </li>
 ​
                 <li class="btn nav-item">
@@ -41,7 +42,7 @@
             </ul>
             <hr />
             
-            <form action="submit.html" method="POST">
+            <form>
                 <div class = "row align-items-center">
                     <label class="req col-4" for="name">Name:</label>
                     <input class="col-5" type="text" id="name" name="name"><br/><br/>
@@ -100,7 +101,9 @@
                     </div>
                 </div>
 ​
-                <input type="submit" name="sendRequest" value="Send Request">
+                <button id="submit" onclick="return majinbuu();">Submit</button>
+                <button id="reset" onclick="location.reload();">Reset Form</button>
+
             </form>
         </div>
 ​
