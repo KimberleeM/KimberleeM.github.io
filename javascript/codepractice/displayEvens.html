@@ -10,8 +10,7 @@
         }
 
         h1 {
-            text-align: center;
-
+            text-align: left;
             color: rgb(167, 112, 112);
         }
 
@@ -20,9 +19,14 @@
             padding: 3%;
         }
 
+        .right-label{
+            display:inline-block;
+            text-align:right;
+            width:200px;
+        }
         #calculate {
             background-color: rgba(241, 152, 188, 0.76);
-            margin: 5px;
+            margin-left: 1b0px;
         }
     </style>
 </head>
@@ -30,11 +34,11 @@
 <body>
     <h1>Display Evens</h1>
 
-    First Number: <input id="firstNumber" type="number">
+    <label class="right-label" for="firstNumber">First Number: </label><input id="firstNumber" type="number">
     <br><br>
-    Second Number: <input id="second-number" . type="number">
+    <label class="right-label" for="second-number">Second Number:</label> <input id="second-number"  type="number">
     <br><br>
-    Step: <input id="step" type="number">
+    <label class="right-label" for="step">Step:</label> <input id="step" type="number">
     <br><br>
 
     <button id="calculate" onClick="majinBuu()">Calculate</button>
