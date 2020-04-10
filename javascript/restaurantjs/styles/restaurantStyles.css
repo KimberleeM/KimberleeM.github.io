@@ -16,9 +16,9 @@ body {
 header,footer {
     text-align:center;
     font-family:'Satisfy', cursive;
-    color: rgb(236, 217, 43);
-    background-color:rgba(61, 215, 235, 0.911);
-    font-size: 0px;
+    color: rgb(71, 66, 20);
+    background-color:rgba(61, 215, 235, 0.781);
+    font-size: 1.1em;
 
   }
    
