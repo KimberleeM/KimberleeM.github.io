@@ -16,8 +16,9 @@ body {
 header,footer {
     text-align:center;
     font-family:'Satisfy', cursive;
-    color: rgb(240, 221, 48);
-    background-color:rgba(35, 131, 138, 0.794);
+    color: rgb(236, 217, 43);
+    background-color:rgba(61, 215, 235, 0.911);
+    font-size: 0px;
 
   }
    
@@ -41,5 +42,5 @@ header,footer {
 }
 .jumbotron{
   color: rgb(10, 50, 87);
-  background-color: rgba(245, 172, 89, 0.863);
+  background-color: rgba(245, 168, 79, 0.863);
 }
